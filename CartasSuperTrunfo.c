@@ -5,7 +5,7 @@ int main()
     char estado_carta1[3], estado_carta2[3];
     char codigo_da_carta1[4], codigo_da_carta2[4];
     char nome_da_cidade_carta1[20], nome_da_cidade_carta2[20];
-    int população_carta1, população_carta2;
+    int populacao_carta1, populacao_carta2;
     int numero_de_pontosTuristicos_carta1, numero_de_pontosTuristicos_carta2;
     float area_da_cidade_carta1, area_da_cidade_carta2;
     float PIB_carta1, PIB_carta2;
@@ -21,7 +21,7 @@ int main()
     scanf("%s", nome_da_cidade_carta1);
 
     printf("Digite o numero de habitantes da cidade escolhida (não use a virgula, apenas numeros): \n");
-    scanf("%d", &população_carta1);
+    scanf("%d", &populacao_carta1);
 
     printf("Digite a área da cidade (em quilômetros quadrados, use o ponto para marcar casas depois): \n");
     scanf("%f", &area_da_cidade_carta1);
@@ -43,7 +43,7 @@ int main()
     scanf("%s", nome_da_cidade_carta2);
 
     printf("Digite o numero de habitantes da cidade escolhida (não use a virgula, apenas numeros)(carta 2): \n");
-    scanf("%d", &população_carta2);
+    scanf("%d", &populacao_carta2);
 
     printf("Digite a área da cidade (em quilômetros quadrados)(carta 2): \n");
     scanf("%f", &area_da_cidade_carta2);
@@ -59,7 +59,7 @@ int main()
     printf("Estado: %s\n", estado_carta1);
     printf("Código: %s\n", codigo_da_carta1);
     printf("Nome da cidade: %s\n", nome_da_cidade_carta1);
-    printf("População: %d\n", população_carta1);
+    printf("População: %d\n", populacao_carta1);
     printf("Área: %.2f\n", area_da_cidade_carta1);
     printf("PIB: %.2f\n", PIB_carta1);
     printf("Números de Pontos Turísticos: %d\n", numero_de_pontosTuristicos_carta1);
@@ -69,10 +69,12 @@ int main()
     printf("Estado: %s\n", estado_carta2);
     printf("Código: %s\n", codigo_da_carta2);
     printf("Nome da cidade: %s\n", nome_da_cidade_carta2);
-    printf("População: %d\n", população_carta2);
+    printf("População: %d\n", populacao_carta2);
     printf("Área: %.2f\n", area_da_cidade_carta2);
     printf("PIB: %.2f\n", PIB_carta2);
     printf("Números de Pontos Turísticos: %d\n", numero_de_pontosTuristicos_carta2);
 
+
     return 0;
+
 }
